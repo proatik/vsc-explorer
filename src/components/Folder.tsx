@@ -1,6 +1,8 @@
 import { Fragment } from "react";
 
-import { Node, useMainContext } from "../contexts/MainContext";
+import { Node } from "../composite/Node";
+
+import { useMainContext } from "../contexts/MainContext";
 
 type FolderProps = {
   item: Node;
